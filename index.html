@@ -1,35 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jason Dean's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
-            padding: 20px;
+            padding: 0;
             line-height: 1.6;
+            color: #333;
+            background-color: #f7f9fc;
         }
 
         header, section {
             margin-bottom: 20px;
-            padding: 20px;
-            border: 1px solid #ddd;
+            padding: 40px 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
-        h1, h2, h3 {
+        h1 {
+            font-size: 2.5em;
             margin-top: 0;
+            color: #2c3e50;
+        }
+
+        h2 {
+            font-size: 2em;
+            color: #34495e;
+        }
+
+        h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
         }
 
         a {
             color: #3498db;
             text-decoration: none;
+            transition: color 0.3s;
         }
 
         a:hover {
-            text-decoration: underline;
+            color: #2980b9;
         }
 
         ul {
@@ -38,33 +60,61 @@
         }
 
         ul li {
-            margin-bottom: 10px;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        ul li:last-child {
+            border-bottom: none;
+        }
+
+        #contact a {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-transform: uppercase;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+
+        #contact a:hover {
+            background-color: #2980b9;
         }
     </style>
 </head>
+
 <body>
 
-<header>
-    <h1>Jason Dean's Portfolio</h1>
-    <p>Hello! I'm Jason Dean, a passionate data scientist. Welcome to my online portfolio.</p>
-</header>
+    <header>
+        <h1>Jason Dean's Portfolio</h1>
+        <p>Hello! I'm Jason Dean, a passionate data scientist. Welcome to my online portfolio.</p>
+        <p>I am currently working for Walt Disney World Parks and Resorts for over five years and through the Disney Aspire program have recently finished my Master's Degree in Data Science.</p>
+        <p>I am now looking to utilize this degree in the various fields of data science and am very excited to get to work on new projects</p>
+    </header>
 
-<section id="projects">
-    <h2>Projects</h2>
-    <ul>
-        <li>
-            <h3><a href="https://github.com/jdeanbellevue/YouTubeEducationalContent">Equitable Educational Content on YouTube: A Multilingual Perspective</a></h3>
-        </li>
-        <li>
-            <h3><a href="https://github.com/jdeanbellevue/PredictingBankFailures">Predicting Bank Failures: Identifying Red Flags in Financial Statements</a></h3>
-        </li>
-    </ul>
-</section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <h3><a href="https://github.com/jdeanbellevue/YouTubeEducationalContent">Equitable Educational Content on YouTube: A Multilingual Perspective</a></h3>
+            </li>
+            <li>
+                <h3><a href="https://github.com/jdeanbellevue/PredictingBankFailures">Predicting Bank Failures: Identifying Red Flags in Financial Statements</a></h3>
+            </li>
+            <li>
+                <h3><a href="https://github.com/jdeanbellevue/AndroidMotionGame">FuseBall: An Android motion-based game created in Unity with C++</a></h3>
+            </li>
+        </ul>
+    </section>
 
-<section id="contact">
-    <h2>Contact Me</h2>
-    <p>If you'd like to get in touch, you can reach me at: <a href="mailto:dean.m.jason@gmail.com">dean.m.jason@gmail.com</a></p>
-</section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, you can reach me at:</p>
+        <p><a href="mailto:dean.m.jason@gmail.com">dean.m.jason@gmail.com</a></p>
+    </section>
 
 </body>
+
 </html>
